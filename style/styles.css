@@ -90,11 +90,12 @@ button {
 }
 
 .imgone, .imgtwo, .imgthree, .imgfour {
-    border: blue;
+    border: #3882f6;
     border-style:solid;
     width: 150px;
     height: 150px;
     border-radius: 10px;
+    border-width: 5px;
 }
 
 .colorbacktwo {
@@ -127,4 +128,19 @@ button {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px;
+}
+
+.underimg {
+    display: flex;
+    width: 160px;
+    height: 150px;
+    align-items: top;
+    font-size: 13px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
