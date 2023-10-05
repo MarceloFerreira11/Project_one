@@ -47,8 +47,6 @@ a {
 .img {
     display: flex;
     height: 280px;
-    
-   
 }
 
 .subtext {
@@ -172,4 +170,33 @@ button {
 .quotename {
     font-size: 20px;
     font-weight: bolder;
+}
+
+.colorbackfour {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 200px;
+    gap: 100px;
+}
+
+.action {
+    color: #f5faf8;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.actionsub {
+    color: #f5faf8;
+    font-weight: lighter;
+    font-size: 14px;
 }
